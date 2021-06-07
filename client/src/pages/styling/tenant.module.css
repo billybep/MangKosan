@@ -1,0 +1,23 @@
+#body {
+  background-color: #f5e6ca;
+}
+
+.headContainer {
+  margin-top: 5rem;
+  background-color: #f5e6ca;
+}
+
+.fontCustom {
+  color: #343f56;
+  font-weight: 'bold';
+  font-size: '50px';
+  padding: '20px';
+}
+
+.table {
+  color: aquamarine;
+}
+
+.textColor {
+  color: white;
+}

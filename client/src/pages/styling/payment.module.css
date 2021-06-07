@@ -1,0 +1,13 @@
+.column1 {
+  border: 'solid';
+  border-color: 'blue';
+  padding: '20px';
+}
+
+.title {
+  justify-content: 'center';
+  text-align: 'center';
+  color: #343f56;
+  font-weight: 'bold';
+  font-size: '50px';
+}

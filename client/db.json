@@ -1,0 +1,302 @@
+{
+  "payments": [],
+  "user": [],
+  "properties": [
+    {
+      "id": 1,
+      "name": "Wisma",
+      "address": "Jalan Kramat Raya 2, Kebayoran Lama, Jakarta Selatan, DKI Jakarta",
+      "image": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "phone": "021-60256696",
+      "userId": 1,
+      "username": "BangBang",
+      "email": "Bangbang@mail.com",
+      "createdAt": "2021-05-30T02:20:32.919Z",
+      "updatedAt": "2021-05-30T02:20:32.919Z"
+    }
+  ],
+  "tenant": [
+    {
+      "id": 1,
+      "email": "blabla1@mail.com",
+      "name": "John",
+      "phone": "+62984895941",
+      "checkIn": "2021-01-01",
+      "checkOut": "null"
+    },
+    {
+      "id": 2,
+      "email": "blabla2@mail.com",
+      "name": "surti",
+      "phone": "+62984895942",
+      "checkIn": "2021-01-06",
+      "checkOut": "null"
+    },
+    {
+      "id": 3,
+      "email": "blabla3@mail.com",
+      "name": "tedjo",
+      "phone": "+62984895943",
+      "checkIn": "2021-01-08",
+      "checkOut": "null"
+    },
+    {
+      "id": 4,
+      "email": "blabla4@mail.com",
+      "name": "acong",
+      "phone": "+62984895944",
+      "checkIn": "2021-01-02",
+      "checkOut": "null"
+    },
+    {
+      "id": 5,
+      "email": "blabla5@mail.com",
+      "name": "umar",
+      "phone": "+62984895945",
+      "checkIn": "2021-02-09",
+      "checkOut": "null"
+    },
+    {
+      "id": 6,
+      "email": "blabla6@mail.com",
+      "name": "susi",
+      "phone": "+62984895946",
+      "checkIn": "2021-02-10",
+      "checkOut": "null"
+    },
+    {
+      "id": 7,
+      "email": "blabla7@mail.com",
+      "name": "susanti",
+      "phone": "+62984895947",
+      "checkIn": "2021-02-11",
+      "checkOut": "null"
+    },
+    {
+      "id": 8,
+      "email": "blabla8@mail.com",
+      "name": "mamang",
+      "phone": "+62984895948",
+      "checkIn": "2021-02-21",
+      "checkOut": "null"
+    },
+    {
+      "id": 9,
+      "email": "blabla9@mail.com",
+      "name": "jono",
+      "phone": "+62984895949",
+      "checkIn": "2021-03-01",
+      "checkOut": "null"
+    },
+    {
+      "id": 10,
+      "email": "blabla10@mail.com",
+      "name": "budi",
+      "phone": "+629848959410",
+      "checkIn": "2021-03-06",
+      "checkOut": "null"
+    },
+    {
+      "id": 11,
+      "email": "blabla11@mail.com",
+      "name": "abdul",
+      "phone": "+629848959411",
+      "checkIn": "2021-03-08",
+      "checkOut": "null"
+    }
+  ],
+  "revenues": [
+    { "id": 1, "month": 1, "year": 2021, "total": 20000000, "propertyID": 1 },
+    { "id": 2, "month": 2, "year": 2021, "total": 34000000, "propertyID": 1 },
+    { "id": 3, "month": 3, "year": 2021, "total": 24000000, "propertyID": 1 },
+    { "id": 4, "month": 4, "year": 2021, "total": 45000000, "propertyID": 1 },
+    { "id": 5, "month": 5, "year": 2021, "total": 34000000, "propertyID": 1 },
+    { "id": 6, "month": 6, "year": 2021, "total": 56000000, "propertyID": 1 },
+    { "id": 7, "month": 7, "year": 2021, "total": 36000000, "propertyID": 1 },
+    { "id": 8, "month": 8, "year": 2021, "total": 24000000, "propertyID": 1 },
+    { "id": 9, "month": 9, "year": 2021, "total": 27000000, "propertyID": 1 },
+    { "id": 10, "month": 10, "year": 2021, "total": 30000000, "propertyID": 1 },
+    { "id": 11, "month": 11, "year": 2021, "total": 21000000, "propertyID": 1 },
+    { "id": 12, "month": 12, "year": 2021, "total": 29000000, "propertyID": 1 }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "title": "Perbaikan Air",
+      "month": 1,
+      "year": 2021,
+      "total": 10000000,
+      "propertyID": 1
+    },
+    {
+      "id": 2,
+      "title": "Perbaikan Kamar",
+      "month": 2,
+      "year": 2021,
+      "total": 15000000,
+      "propertyID": 1
+    },
+    {
+      "id": 3,
+      "title": "Perbaikan Genteng Bocor",
+      "month": 3,
+      "year": 2021,
+      "total": 26000000,
+      "propertyID": 1
+    },
+    {
+      "id": 4,
+      "title": "Membeli Kasur Tambahan",
+      "month": 4,
+      "year": 2021,
+      "total": 10000000,
+      "propertyID": 1
+    },
+    {
+      "id": 5,
+      "title": "Membayar Listrik",
+      "month": 5,
+      "year": 2021,
+      "total": 12000000,
+      "propertyID": 1
+    },
+    {
+      "id": 6,
+      "title": "Membayar Listrik",
+      "month": 6,
+      "year": 2021,
+      "total": 11000000,
+      "propertyID": 1
+    },
+    {
+      "id": 7,
+      "title": "Membayar Listrik",
+      "month": 7,
+      "year": 2021,
+      "total": 13000000,
+      "propertyID": 1
+    },
+    {
+      "id": 8,
+      "title": "Membayar Listrik",
+      "month": 8,
+      "year": 2021,
+      "total": 9000000,
+      "propertyID": 1
+    },
+    {
+      "id": 9,
+      "title": "Membayar Listrik",
+      "month": 9,
+      "year": 2021,
+      "total": 14000000,
+      "propertyID": 1
+    },
+    {
+      "id": 10,
+      "title": "Membayar Listrik",
+      "month": 10,
+      "year": 2021,
+      "total": 15000000,
+      "propertyID": 1
+    },
+    {
+      "id": 11,
+      "title": "Perbaikan Air",
+      "month": 11,
+      "year": 2021,
+      "total": 8000000,
+      "propertyID": 1
+    },
+    {
+      "id": 12,
+      "title": "Perbaikan Air",
+      "month": 12,
+      "year": 2021,
+      "total": 10000000,
+      "propertyID": 1
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "number": 1,
+      "status": "empty",
+      "propertyID": 1,
+      "type": "standard",
+      "price": 1200000
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "status": "maintenance",
+      "propertyID": 1,
+      "type": "duluxe",
+      "price": 2000000
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "status": "occupied",
+      "propertyID": 1,
+      "type": "standard",
+      "price": 1200000
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "status": "empty",
+      "propertyID": 1,
+      "type": "duluxe",
+      "price": 1200000
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "status": "maintenance",
+      "propertyID": 1,
+      "type": "standard",
+      "price": 1200000
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "status": "occupied",
+      "propertyID": 1,
+      "type": "duluxe",
+      "price": 1200000
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "status": "occupied",
+      "propertyID": 1,
+      "type": "standard",
+      "price": 1200000
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "status": "occupied",
+      "propertyID": 1,
+      "type": "duluxe",
+      "price": 1200000
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "status": "empty",
+      "propertyID": 1,
+      "type": "standard",
+      "price": 1200000
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "status": "occupied",
+      "propertyID": 1,
+      "type": "duluxe",
+      "price": 1200000
+    }
+  ]
+}
