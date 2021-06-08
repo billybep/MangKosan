@@ -72,9 +72,9 @@ class PaymentController {
         .then(data => {
             res.status(200).json(data);
         })
-        // .catch(err => {
-        //     next(err);
-        // })
+        .catch(err => {
+            next(err);
+        })
     }
 
     static deletePayment(req, res, next) {
@@ -94,10 +94,10 @@ class PaymentController {
                 })
             }
         })
-        // .catch(err => {
-        //     console.log(err);
-        //     next(err);  
-        // })
+        .catch(err => {
+            console.log(err);
+            next(err);  
+        })
     }
 
     static findPaymentById(req, res, next) {
@@ -111,10 +111,10 @@ class PaymentController {
                     res.status(200).json(data);
                 }
             })
-            // .catch(err => {
-            //     console.log(err);
-            //     next(err);
-            // })
+            .catch(err => {
+                console.log(err);
+                next(err);
+            })
     }
 
     static editPayment(req, res, next) {
@@ -166,7 +166,7 @@ class PaymentController {
           res.status(200).json(data)
           
         })
-        // .catch(err => next(err))
+        .catch(err => next(err))
     }
 }
 

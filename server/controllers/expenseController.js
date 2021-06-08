@@ -93,7 +93,7 @@ class ExpenseController {
       else {
         const updated = await Expense.update({ title: title }, { where: { id: id }, returning: true })
           res.status(200).json({
-                updated:updated[1][0]
+            updated:updated[1][0]
         })
       }
     } catch (err) {
